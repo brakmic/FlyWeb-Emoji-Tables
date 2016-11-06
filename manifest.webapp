@@ -1,6 +1,6 @@
 {
-  "name": "flyamp",
-  "short_name": "flyamp",
+  "name": "flywebdemo",
+  "short_name": "flyweb",
   "icons": [
   ],
   "start_url": "/index.html",
