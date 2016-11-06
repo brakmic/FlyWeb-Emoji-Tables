@@ -8,6 +8,8 @@ A [Live Demo](https://brakmic.com/demos/microapp/) is also available. Of course,
 
 For a complete FlyWeb environment you'll need [Firefox Nightly](https://nightly.mozilla.org/) and [must activate](https://flyweb.github.io/#getting-started) *dom.flyweb.enabled* in *about:config*.
 
+There's also a [Chrome Extension](https://github.com/BHSPitMonkey/flyweb-browser-chrome) for discovering FlyWeb services available.
+
 ### Project structure
 
 **FlyWeb server** and all supporting scripts (polyfills etc.) are located under *src/init/*
