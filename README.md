@@ -12,7 +12,7 @@ For a complete FlyWeb environment you'll need [Firefox Nightly](https://nightly.
 
 <img src="http://brakmic.com/img/demos/microapps/server_files.png" width=300 height=180>
 
-**MicroApp** and its environment is located under *src/app/*
+**MicroApp** and its environment are located under *src/app/*
 
 <img src="http://brakmic.com/img/demos/microapps/microapp_files.png" width=300 height=267>
 
