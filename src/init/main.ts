@@ -29,7 +29,7 @@ const doFetch = (event: IFlyWebFetchEvent, path: string, contentType: string): v
 * Creates a new FlyWeb instance
 */
 export default (function () {
-    const name = `FlyAmp_${counter++}`;
+    const name = `Emojis_${counter++}`;
     const logger = bows(name);
     (<INavigator>navigator).publishServer(name, undefined).then(function(server) {
         server.onfetch = function(event: IFlyWebFetchEvent) {
