@@ -28,7 +28,7 @@ For nicer developer experience and more type-safety I've provided [several inter
 
 **GitHub Emojis**
 
-And last but not least, all of the available [GitHub Emojis](https://github.com/brakmic/FlyWeb-Emoji-Tables/tree/master/src/app/interfaces/GitHub) are strongly-typed and have their own interface and container object. Some of them have been renamed, like *100* to *_10* or *+1* to *plus1*.
+And last but not least, all of the available [GitHub Emojis](https://github.com/brakmic/FlyWeb-Emoji-Tables/tree/master/src/app/interfaces/GitHub) are strongly-typed and have their own interface and container object. Some of them have been renamed, like *100* to *_100* or *+1* to *plus1*.
 
 **Other APIs**
 
