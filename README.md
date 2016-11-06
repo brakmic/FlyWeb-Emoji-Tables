@@ -52,7 +52,7 @@ Both of them will produce several files located in *dist/*. You can now serve th
 
 * Open the main page of your server in Nightly and allow FlyWeb services.
 
-<img src="http://brakmic.com/img/demos/microapps/allow_flyweb_server.png" width=300 height=160>
+<img src="http://brakmic.com/img/demos/microapps/allow_flyweb_server.png" width=350 height=200>
 
 * Open `Discover nearby FlyWeb services`
 
