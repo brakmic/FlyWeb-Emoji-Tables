@@ -1,0 +1,6 @@
+{
+  "microapp": {
+    "js": "microapp.js",
+    "css": "style.css"
+  }
+}

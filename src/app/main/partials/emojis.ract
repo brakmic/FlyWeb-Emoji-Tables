@@ -1,0 +1,14 @@
+<table id="emojis" class="display" cellspacing="0" width="50%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+           <th>Name</th>
+           <th>Image</th>
+        </tr>
+    </tfoot>
+</table>

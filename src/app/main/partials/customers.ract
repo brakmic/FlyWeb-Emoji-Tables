@@ -1,0 +1,18 @@
+<table id="customers" class="display" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Address</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Address</th>
+            <th>City</th>
+        </tr>
+    </tfoot>
+</table>
