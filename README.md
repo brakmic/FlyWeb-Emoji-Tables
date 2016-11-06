@@ -2,8 +2,7 @@
 
 This project utilizes the new [FlyWeb API](https://flyweb.github.io/) from Mozilla.
 
-`
-FlyWeb is a project at Mozilla focused on bringing a new set of APIs to the browser for advertising and discovering local-area web servers.`
+`FlyWeb is a project at Mozilla focused on bringing a new set of APIs to the browser for advertising and discovering local-area web servers.`
 
 A [Live Demo](https://brakmic.com/demos/microapp/) is also available. Of course, this demo is only showcasing the app itself without the FlyWeb environment.
 
