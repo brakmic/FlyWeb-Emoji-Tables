@@ -4,7 +4,7 @@ const parse = require('url-parse');
 const html = require('../app/main/microapp.html');
 const bows = require('../platform/helpers/bows-alt');
 const BASE_URL = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
-
+const browser = <INavigator>navigator; // let TypeScript know about the FlyWeb API
 declare var Response: any;
 declare var fetch: any;
 let counter = 0;
@@ -26,13 +26,13 @@ const doFetch = (event: IFlyWebFetchEvent, path: string, contentType: string): v
     });
 };
 /*
-* Creates a new FlyWeb instance
+* Creates a new FlyWeb server
 */
 export default (function () {
     const name = `Emojis_${counter++}`;
     const logger = bows(name);
-    (<INavigator>navigator).publishServer(name, undefined).then(function(server) {
-        server.onfetch = function(event: IFlyWebFetchEvent) {
+    browser.publishServer(name, undefined).then(server => {
+        server.onfetch = (event: IFlyWebFetchEvent) => {
             const headers =  { 'Content-Type': 'text/html' };
             const url = parse(event.request.url);
             // Here we define all available contents to be served from our FlyWeb apps
@@ -52,7 +52,7 @@ export default (function () {
                 }
             }
         };
-    }).catch(function(error) {
-        console.log('publishServer() failed :-(', error);
+    }).catch(error => {
+        logger.log(error);
     });
 }());
