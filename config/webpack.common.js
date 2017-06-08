@@ -10,7 +10,7 @@ const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin')
 const ProvidePlugin = require('webpack/lib/ProvidePlugin');
 const CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
+// const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 const HtmlElementsPlugin = require('./html-elements-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const LoaderOptionsPlugin = require('webpack/lib/LoaderOptionsPlugin');
@@ -130,7 +130,7 @@ module.exports = function(options) {
                     loader: 'file-loader'
                 }, {
                     test: /bootstrap\/dist\/js\/umd\//,
-                    loader: 'imports?jQuery=jquery'
+                    loader: 'imports-loader?jQuery=jquery'
                 },
                 {
                     test: /style\.scss$/,
@@ -154,7 +154,7 @@ module.exports = function(options) {
                  */
                 {
                     test: /\.(jpg|png|gif)$/,
-                    loader: 'file'
+                    loader: 'file-loader'
                 },
                 {
                     enforce: 'post',

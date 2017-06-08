@@ -64,7 +64,7 @@ module.exports = function(options) {
             rules: [
                 { 
                     test: /\.ract$/, 
-                    loader: 'ractive' 
+                    loader: 'ractive-loader' 
                 }
             ]
         },

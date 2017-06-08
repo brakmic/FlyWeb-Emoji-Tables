@@ -8,7 +8,7 @@ const path = require('path');
  */
 const DefinePlugin = require('webpack/lib/DefinePlugin');
 const LoaderOptionsPlugin = require('webpack/lib/LoaderOptionsPlugin');
-const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
+// const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
@@ -145,7 +145,7 @@ module.exports = function(options) {
              *
              * See: https://github.com/s-panferov/awesome-typescript-loader#forkchecker-boolean-defaultfalse
              */
-            new ForkCheckerPlugin(),
+            // new ForkCheckerPlugin(),
              /**
              * Plugin: NamedModulesPlugin (experimental)
              * Description: Uses file names as module name.
