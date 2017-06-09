@@ -10,7 +10,7 @@ For a complete FlyWeb environment you'll need [Firefox Nightly](https://nightly.
 
 The companion article to this project can be found [here](http://blog.brakmic.com/writing-microapps-with-the-flyweb-api/).
 
-There's also a [Chrome Extension](https://github.com/BHSPitMonkey/flyweb-browser-chrome) for discovering FlyWeb services available.
+There's also a [Chrome Extension](https://github.com/BHSPitMonkey/flyweb-browser-chrome) for discovering FlyWeb services.
 
 ### Project structure
 
