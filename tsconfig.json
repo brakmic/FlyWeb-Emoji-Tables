@@ -16,7 +16,6 @@
             "es6"
         ],
         "types": [
-            "devextreme",
             "hammerjs",
             "jasmine",
             "node",
